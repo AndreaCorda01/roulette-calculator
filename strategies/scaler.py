@@ -27,8 +27,8 @@ class ScalerStrategy():
         return session_results
     
     def get_bar_chart(self):
-        plt.title = self.strategy_class.__name__
-        plt.xlabel(plt.title + ' Session of ' + str(self.spins) + ' spins')
+        plt.xlabel('Session')
         plt.ylabel('Net Balance')
         plt.bar(range(len(self.results)), list(map(lambda x: x - self.equity, self.results)))
+        plt.title("Plays using " + self.strategy_class.__name__ + " with " + str(self.spins) + " spins and equity of " + str(self.equity))
         plt.savefig('output/' + self.strategy_class.__name__ + '-times-' + str(len(self.results)) + '.png')

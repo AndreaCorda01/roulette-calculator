@@ -6,6 +6,12 @@
 
 The Roulette Calculator is a program that helps calculate various statistics and probabilities related to the game of roulette. It can be used to analyze different betting strategies, simulate outcomes, and make informed decisions while playing roulette.
 
+## Examples
+| Example 1 | Example 2 |
+|-----------|-----------|
+| ![Example 1](examples/FibonacciStrategy-times-50-1000-spins.png) | ![Example 2](examples/FibonacciStrategy-times-50.png) |
+
+
 ## Features
 
 - Calculate the probability of winning for different types of bets
